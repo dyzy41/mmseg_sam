@@ -38,8 +38,6 @@ pytest
 regex
 xdoctest>=0.10.0
 yapf
-ftfy
-regex
 
 [mim]
 mmcv<2.2.0,>=2.0.0rc4

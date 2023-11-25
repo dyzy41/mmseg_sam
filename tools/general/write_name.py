@@ -1,7 +1,7 @@
 import os
 
-dataset_path = "/home/ps/HDD/zhaoyq_data/DATASET/whub_seg"  # 将此处替换为您的数据集路径
-output_path = "/home/ps/HDD/zhaoyq_data/DATASET/whub_seg"  # 将此处替换为您想要保存txt文件的输出路径
+dataset_path = "/home/user/dsj_files/datasets/whub_seg_1024"  # 将此处替换为您的数据集路径
+output_path = "/home/user/dsj_files/datasets/whub_seg_1024"  # 将此处替换为您想要保存txt文件的输出路径
 
 # 创建保存txt文件的文件夹
 if not os.path.exists(output_path):

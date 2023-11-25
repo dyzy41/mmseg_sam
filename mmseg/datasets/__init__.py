@@ -41,6 +41,7 @@ from .transforms import (CLAHE, AdjustGamma, Albu, BioMedical3DPad,
 from .voc import PascalVOCDataset
 
 from .basetxtdataset import TXTSegDataset, TXTCDDataset
+from .basetxtdataset_sam import TXTSAMDataset
 
 # yapf: enable
 __all__ = [
@@ -62,5 +63,5 @@ __all__ = [
     'MapillaryDataset_v2', 'Albu', 'LEVIRCDDataset',
     'LoadMultipleRSImageFromFile', 'LoadSingleRSImageFromFile',
     'ConcatCDInput', 'BaseCDDataset', 'DSDLSegDataset', 'BDD100KDataset',
-    'NYUDataset', 'TXTSegDataset', 'TXTCDDataset'
+    'NYUDataset', 'TXTSegDataset', 'TXTCDDataset', 'TXTSAMDataset'
 ]

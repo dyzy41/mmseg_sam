@@ -11,9 +11,11 @@ from .BuildFormer import BuildFormerSegDP
 from .UNetFormer import UNetFormer
 from .encoder_decoderMM import EncoderDecoderMM
 from .encoder_decoderSwinText import EncoderDecoderSwinText
+from .SAM import BuildSAM
 
 __all__ = [
     'BaseSegmentor', 'EncoderDecoder', 'CascadeEncoderDecoder', 'SegTTAModel',
     'MultimodalEncoderDecoder', 'DepthEstimator', 'EncoderDecoderMMText',
-    'BuildFormerSegDP', 'UNetFormer', 'EncoderDecoderMM', 'EncoderDecoderSwinText'
+    'BuildFormerSegDP', 'UNetFormer', 'EncoderDecoderMM', 'EncoderDecoderSwinText',
+    'BuildSAM'
 ]
