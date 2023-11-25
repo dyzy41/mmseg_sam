@@ -7,7 +7,7 @@ metainfo = dict(
                 classes=('background', 'building'),
                 palette=[[0, 0, 0], [255, 255, 255]])
 
-data_root = '/home/user/dsj_files/datasets/whub_seg_1024'
+data_root = '/home/ps/HDD/zhaoyq_data/SegDATA/whub_seg_1024'
 crop_size = (1024, 1024)
 
 # model settings
@@ -98,7 +98,7 @@ optim_wrapper = dict(
         }))
 
 # training schedule for 20k
-train_cfg = dict(type='IterBasedTrainLoop', max_iters=40000, val_interval=200)
+train_cfg = dict(type='IterBasedTrainLoop', max_iters=40000, val_interval=2000)
 val_cfg = dict(type='ValLoop')
 test_cfg = dict(type='TestLoop')
 default_hooks = dict(

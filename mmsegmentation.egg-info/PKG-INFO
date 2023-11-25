@@ -7,6 +7,7 @@ Author: MMSegmentation Contributors
 Author-email: openmmlab@gmail.com
 License: Apache License 2.0
 Keywords: computer vision,semantic segmentation
+Platform: UNKNOWN
 Classifier: Development Status :: 4 - Beta
 Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Operating System :: OS Independent
@@ -15,84 +16,12 @@ Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
 Description-Content-Type: text/markdown
-License-File: LICENSE
-Requires-Dist: matplotlib
-Requires-Dist: numpy
-Requires-Dist: packaging
-Requires-Dist: prettytable
-Requires-Dist: scipy
 Provides-Extra: all
-Requires-Dist: cityscapesscripts; extra == "all"
-Requires-Dist: clip; extra == "all"
-Requires-Dist: diffusers; extra == "all"
-Requires-Dist: einops==0.3.0; extra == "all"
-Requires-Dist: imageio==2.9.0; extra == "all"
-Requires-Dist: imageio-ffmpeg==0.4.2; extra == "all"
-Requires-Dist: invisible-watermark; extra == "all"
-Requires-Dist: kornia==0.6; extra == "all"
-Requires-Dist: latent-diffusion; extra == "all"
-Requires-Dist: nibabel; extra == "all"
-Requires-Dist: omegaconf==2.1.1; extra == "all"
-Requires-Dist: pudb==2019.2; extra == "all"
-Requires-Dist: pytorch-lightning==1.4.2; extra == "all"
-Requires-Dist: streamlit>=0.73.1; extra == "all"
-Requires-Dist: taming-transformers; extra == "all"
-Requires-Dist: test-tube>=0.7.5; extra == "all"
-Requires-Dist: timm; extra == "all"
-Requires-Dist: torch-fidelity==0.3.0; extra == "all"
-Requires-Dist: torchmetrics==0.6.0; extra == "all"
-Requires-Dist: transformers==4.19.2; extra == "all"
-Requires-Dist: matplotlib; extra == "all"
-Requires-Dist: numpy; extra == "all"
-Requires-Dist: packaging; extra == "all"
-Requires-Dist: prettytable; extra == "all"
-Requires-Dist: scipy; extra == "all"
-Requires-Dist: codecov; extra == "all"
-Requires-Dist: flake8; extra == "all"
-Requires-Dist: ftfy; extra == "all"
-Requires-Dist: interrogate; extra == "all"
-Requires-Dist: pytest; extra == "all"
-Requires-Dist: regex; extra == "all"
-Requires-Dist: xdoctest>=0.10.0; extra == "all"
-Requires-Dist: yapf; extra == "all"
-Requires-Dist: ftfy; extra == "all"
-Requires-Dist: regex; extra == "all"
 Provides-Extra: tests
-Requires-Dist: codecov; extra == "tests"
-Requires-Dist: flake8; extra == "tests"
-Requires-Dist: ftfy; extra == "tests"
-Requires-Dist: interrogate; extra == "tests"
-Requires-Dist: pytest; extra == "tests"
-Requires-Dist: regex; extra == "tests"
-Requires-Dist: xdoctest>=0.10.0; extra == "tests"
-Requires-Dist: yapf; extra == "tests"
 Provides-Extra: optional
-Requires-Dist: cityscapesscripts; extra == "optional"
-Requires-Dist: clip; extra == "optional"
-Requires-Dist: diffusers; extra == "optional"
-Requires-Dist: einops==0.3.0; extra == "optional"
-Requires-Dist: imageio==2.9.0; extra == "optional"
-Requires-Dist: imageio-ffmpeg==0.4.2; extra == "optional"
-Requires-Dist: invisible-watermark; extra == "optional"
-Requires-Dist: kornia==0.6; extra == "optional"
-Requires-Dist: latent-diffusion; extra == "optional"
-Requires-Dist: nibabel; extra == "optional"
-Requires-Dist: omegaconf==2.1.1; extra == "optional"
-Requires-Dist: pudb==2019.2; extra == "optional"
-Requires-Dist: pytorch-lightning==1.4.2; extra == "optional"
-Requires-Dist: streamlit>=0.73.1; extra == "optional"
-Requires-Dist: taming-transformers; extra == "optional"
-Requires-Dist: test-tube>=0.7.5; extra == "optional"
-Requires-Dist: timm; extra == "optional"
-Requires-Dist: torch-fidelity==0.3.0; extra == "optional"
-Requires-Dist: torchmetrics==0.6.0; extra == "optional"
-Requires-Dist: transformers==4.19.2; extra == "optional"
 Provides-Extra: mim
-Requires-Dist: mmcv<2.2.0,>=2.0.0rc4; extra == "mim"
-Requires-Dist: mmengine<1.0.0,>=0.5.0; extra == "mim"
 Provides-Extra: multimodal
-Requires-Dist: ftfy; extra == "multimodal"
-Requires-Dist: regex; extra == "multimodal"
+License-File: LICENSE
 
 <div align="center">
   <img src="resources/mmseg-logo.png" width="600"/>
@@ -420,3 +349,5 @@ This project is released under the [Apache 2.0 license](LICENSE).
 - [MIM](https://github.com/open-mmlab/mim): MIM installs OpenMMLab packages.
 - [Playground](https://github.com/open-mmlab/playground): A central hub for gathering and showcasing amazing projects built upon OpenMMLab.
 # mmrsseg
+
+

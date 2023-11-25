@@ -58,7 +58,7 @@ class BuildSAM(EncoderDecoder):
           sam_model (Sam): The model to use for mask prediction.
         """
         super().__init__(backbone=backbone, decode_head=decode_head, data_preprocessor=data_preprocessor, init_cfg=init_cfg)
-        sam_checkpoint = "/home/user/.cache/torch/hub/checkpoints/sam_vit_h_4b8939.pth"
+        sam_checkpoint = "/home/ps/.cache/torch/hub/checkpoints/sam_vit_h_4b8939.pth"
         model_type = "vit_h"
         self.model = sam_model_registry[model_type](checkpoint=sam_checkpoint)
 
